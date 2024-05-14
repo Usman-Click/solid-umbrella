@@ -1,0 +1,9 @@
+statelessWidget - its widget are stateless ie: they're state cannot change they're innmutable
+
+statefulWidget - opposite of statelessWidget
+
+initState() - like normal init() method in adnroid where you init ur variables
+    you can init all ur var here since its not being re-called when setState() is called
+
+setState() - is being called to update the state of the internal state of an onject in a state (state class)
+    in simple terms it is called to update ui states / widget / components
