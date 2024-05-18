@@ -7,3 +7,9 @@ initState() - like normal init() method in adnroid where you init ur variables
 
 setState() - is being called to update the state of the internal state of an onject in a state (state class)
     in simple terms it is called to update ui states / widget / components
+
+widgetTree = its a config that def the ui struc.
+elemTree = def the widget lifecycle, which widget to updates nd mutable state
+renderObjectTree = rending / painting the ui / widget
+elemTree == buildContext(context) since it implemented the buildContext
+
