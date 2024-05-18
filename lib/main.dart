@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
         title: "Solid Umbrella",
         theme: ThemeData.dark(useMaterial3: true),
-        home: const MainWheatherPage(),
+        home: const MainPage(),
     ));
   }
 }
